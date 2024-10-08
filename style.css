@@ -272,6 +272,38 @@ section.sobre .flex {
     transition: .2s;
 }
 
+/*SOBRE MIM*/
+section.sobre-mim{
+    padding: 10% 4%;
+}
+section.sobre_mim .flex {
+    align-items: center;
+    gap: 60px;
+}
+section.sobre-mim .flex {
+    align-items: center;
+    gap: 60px;
+}
+.sobre-mim .text-sobre-mim {
+    color: #ffff;
+}
+.sobre-mim .text-sobre-mim h2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.sobre-mim .text-sobre-mim h2 span {
+    color: blueviolet;
+    display: block;
+}
+.sobre-mim .text-sobre-mim p {
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre-mim .video div{
+    padding: 20% 4%;
+}
+
 /**PORTIFÓLIO*/
 section.portfolio {
     padding: 80px 4%;
@@ -427,7 +459,15 @@ footer img {
     .img-sobre img {
         width: 100%;
     }
+    /*SOBRE MIM*/
+    section.sobre-mim{
+        padding: 80% 8%;
+    }
 
+    .sobre-mim div.video{
+        width: 100%;
+    }
+    
     /*PORTIFÓLIO*/
     section.portifolio {
         padding: 80px 8%;
